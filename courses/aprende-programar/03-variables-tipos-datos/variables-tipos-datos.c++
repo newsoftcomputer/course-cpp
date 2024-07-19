@@ -12,23 +12,26 @@ int main() {
     int year = 1979;
     int dias = 24;
     
-    std::cout<<suma;
+    std::cout<<suma<<std::endl;
 
     // Double - Float
     double precio = 10.99;
     double average = 2.5;
     long double temperature = 25.1151615;
-    std::cout<<precio<<average<<temperature;
+    std::cout<<precio<<average<<temperature<<std::endl;
 
     float precio2 = 22.98;
 
     // Char
     char calification = 'A';
     char initial = 'B';
+    std::cout<<calification<<initial<<'\n';
 
     // Booleanos
-    bool status = false;
-    std::cout<<status;
+    bool status01 = false;
+    bool status02 = true;
+
+    std::cout<<status01<<status02<<std::endl;
 
     return 0;
 }
