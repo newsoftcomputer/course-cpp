@@ -10,7 +10,7 @@ int main() {
     int edad =  24;
     int year = 1979;
     int dias = 24;
-    std::cout<<suma<<std::endl;
+    std::cout<<"La suma es: "<<suma<<std::endl;
 
     // Double - Float
     double precio = 10.99;
@@ -33,7 +33,7 @@ int main() {
     // String
     std::string name = "Andres";
     std::string lastname = "Giraldo";
-    std::cout<<name<<lastname<<std::endl;
+    std::cout<<"Hola :"<<name<<lastname<<std::endl;
 
     return 0;
 }
